@@ -1,0 +1,4 @@
+import{a as S}from"./chunk-YKOQL55W.js";import{a as y}from"./chunk-MACVMKOA.js";import{d as u}from"./chunk-YCONRSTD.js";import"./chunk-AY5GOTEJ.js";import{Hb as s,Kb as l,Pb as f,Qa as c,Z as a,ca as p,f as v,qb as m,rb as d}from"./chunk-IAIY7PNC.js";var r=v(S());var D=(()=>{let t=class t{constructor(){this.router=a(u),this.nombre="",this.nrro=0}ngOnInit(){this.router.params.subscribe(n=>{this.nombre=n.nombre;let e=n.nro,o=y.key,b=r.AES.decrypt(e,o).toString(r.enc.Utf8),h=parseInt(b,10);this.nrro=h})}};t.\u0275fac=function(e){return new(e||t)},t.\u0275cmp=p({type:t,selectors:[["app-detalle-libro"]],standalone:!0,features:[f],decls:3,vars:2,template:function(e,o){e&1&&(m(0,"p"),s(1,"detalle-libro works!"),d(),s(2)),e&2&&(c(2),l(`
+`,o.nombre.split("_").join(" "),`
+`,o.nrro,`
+`))}});let i=t;return i})();export{D as default};

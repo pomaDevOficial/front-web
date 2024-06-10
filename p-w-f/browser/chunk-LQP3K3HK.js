@@ -1,0 +1,1 @@
+import{Hb as r,Pb as s,ca as o,qb as a,rb as i}from"./chunk-IAIY7PNC.js";var d=(()=>{let e=class e{};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-novela"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,p){n&1&&(a(0,"p"),r(1,"novela works!"),i())}});let t=e;return t})();export{d as default};
